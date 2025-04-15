@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "demo-terraform-eks-ivor-state-s3-bucket"
+  bucket = "femo-terraform-eks-ivor-state-s3-bucket"
 
   lifecycle {
     prevent_destroy = false
